@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27, 0, 0);
+   
+    color: white;
+    
+   
+    
+   
+}
+
+.mainContent{
+    font-family: 'Luxurious Roman', cursive;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 7px;
+}
+
+.btn{
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    background-color: yellow;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+
+.btn:hover{
+    background-color: yellowgreen;
+    transition: .5s ease-in-out;
+}
